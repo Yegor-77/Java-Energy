@@ -1,0 +1,55 @@
+*{
+    list-style: none;
+}
+
+
+
+    .container{
+        width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px ;
+    border:1px solid;
+       }
+       
+
+.header-link{
+    display: flex;
+}
+
+.header-line{
+    display: flex;
+    gap: 50px;
+}
+
+.main-imag{
+    width: 800px;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    background-image: url(/img/yourbase.jpg);
+    background-image: linear-gradient( to top left red 15% blue 40% white 35%);
