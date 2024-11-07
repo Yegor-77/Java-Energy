@@ -27,6 +27,25 @@
 }
 
 
+.contacts-images{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    
+}
+
+.contacts-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.contacts-link{
+margin-top:30px ;
+}
 
 
 
@@ -35,21 +54,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    background-image: url(/img/yourbase.jpg);
-    background-image: linear-gradient( to top left red 15% blue 40% white 35%);
