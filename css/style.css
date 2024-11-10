@@ -39,6 +39,13 @@ body{
     padding: 0 35px ;
     border:1px solid;
        }
+
+
+
+.wrap{
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}       
        
 .header{
     background-color: var(--header-text);
