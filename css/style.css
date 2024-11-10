@@ -56,9 +56,6 @@ body{
 
 }
 
-.header-text{
-color: var(--header-text);
-}
 
 .main-imag{
     width: 800px;
@@ -193,4 +190,13 @@ margin-top:0px ;
             .div77 { grid-area: 3 / 1 / 4 / 2; }
             .div88 { grid-area: 3 / 2 / 4 / 3; }
             .div99 { grid-area: 3 / 3 / 4 / 4; }
-        
+   
+            
+
+            .header-text{
+               background-color: var(--footer-text);
+                color: var(--header-text);
+                }
+
+
+                
