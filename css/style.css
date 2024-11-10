@@ -31,12 +31,6 @@ body{
 }
 
 
-.header-text{
-    background-color: var(--header-text);
-}
-
-
-
     .container{
         width: 1230px;
     margin: 0 auto;
@@ -51,10 +45,6 @@ body{
     text-wrap: wrap;
 }       
        
-.header{
-    background-color: var(--header-text);
-}
-
 
 .header-link{
     display: flex;
@@ -67,7 +57,7 @@ body{
 }
 
 .header-text{
-color: var(--footer-text);
+color: var(--header-text);
 }
 
 .main-imag{
