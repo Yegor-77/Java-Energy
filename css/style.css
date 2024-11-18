@@ -30,21 +30,15 @@ body{
     list-style: none;
 }
 
-
     .container{
         width: 1230px;
     margin: 0 auto;
     padding: 0 35px ;
     border:1px solid;
+    border-radius: 10px;
        }
 
 
-
-.wrap{
-    flex-wrap: wrap;
-    text-wrap: wrap;
-}       
-       
 
 .header-link{
     display: flex;
@@ -155,6 +149,13 @@ margin-top:0px ;
 
 
 
+.smail{
+    background-color: green;
+}
+
+
+
+
     .images-link {
         display: grid;
         grid-template-columns:repeat(3, 1fr) ;
@@ -169,7 +170,7 @@ margin-top:0px ;
         
         .shop-btn{
             padding: 20px;
-
+margin-bottom: 50px;
         }
 
 
@@ -197,6 +198,56 @@ margin-top:0px ;
                background-color: var(--footer-text);
                 color: var(--header-text);
                 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .btn{
+                  padding: 15px 20px;
+                  background-color: #2196F3;
+                           }
+
+
+
+
+
+                .btn::before{
+         content:"" ;
+                    background-image: url(/img/go.png);
+                
+                    display: inline-block;
+               width: 24px;
+               height: 24px;
+               background-size:contain ;
+                }
+
+
+
+        .just::before :hover{
+            content: "";
+                       background-image: url(/img/lets.png);
+                   
+                       display: inline-block;
+                 
+                  background-size: contain;
+                  padding: 20px 30 px;
+                   }
+
+
+
+
+
 
 
                 
