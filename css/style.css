@@ -222,32 +222,6 @@ margin-bottom: 50px;
 
 
 
-                .btn::before{
-         content:"" ;
-                    background-image: url(/img/go.png);
-                
-                    display: inline-block;
-               width: 24px;
-               height: 24px;
-               background-size:contain ;
-                }
-
-
-
-        .just::before :hover{
-            content: "";
-                       background-image: url(/img/lets.png);
-                   
-                       display: inline-block;
-                 
-                  background-size: contain;
-                  padding: 20px 30 px;
-                   }
-
-
-
-
-
 
 
                 
