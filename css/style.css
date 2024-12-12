@@ -34,7 +34,7 @@ body {
   border-radius: 10px;
 }
 .indentific-container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 35px;
   border-radius: 10px;
@@ -43,24 +43,23 @@ body {
 }
 
 .double-container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 35px;
   border-radius: 10px;
-  line-height: 50px;
   color: var(--footer-main-background);
   background-image: url(../img/mmonney.jpg);
   background-repeat: no-repeat;
   padding: 0px;
 }
 .triple-container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 35px;
   border-radius: 10px;
   color: var(--footer-main-background);
   background-image: url(../img/instuments.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   padding: 0px;
 }
 .wiki-container {
@@ -72,7 +71,6 @@ body {
   background-image: url(../img/wiki.jpg);
   background-repeat: no-repeat;
   padding: 0px;
-  line-height: 35px;
 }
 .contact-container {
   width: 1000px;
@@ -80,23 +78,32 @@ body {
   padding: 0 35px;
   border-radius: 10px;
   color: var(--header-text);
-  background-image: url(../img/beach.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../img/tesla.jpg);
+  background-repeat: repeat-y;
   padding: 0px;
-  line-height: 21px;
+}
+.contacter-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 35px;
+  border-radius: 10px;
+  color: var(--header-text);
+  background-image: url(../img/win.jpg);
+  background-repeat: repeat-y;
+  padding: 0px;
 }
 .shop-container {
-  width: 1400px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 35px;
   border-radius: 10px;
   color: var(--header-text);
   background-image: url(../img/shoop.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   padding: 0px;
 }
 .recept-container {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 35px;
   border-radius: 10px;
@@ -104,6 +111,9 @@ body {
   background-image: url(../img/maxresdefault.jpg);
   background-repeat: repeat-y;
   padding: 0px;
+}
+.cont-wrap {
+  margin-bottom: 50px;
 }
 
 .all-div {
@@ -159,6 +169,8 @@ body {
 
 .main-structure {
   background-color: gold;
+  width: 550px;
+  border-radius: 5px;
 }
 
 .wiki-href {
@@ -173,6 +185,15 @@ body {
 }
 .images-images {
   display: flex;
+}
+.footer-colorr {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--bacgraund-color);
+  color: var(--footer-text);
+  border-radius: 6px;
 }
 .shop-header {
   display: flex;
@@ -250,4 +271,25 @@ body {
 .btn {
   padding: 15px 20px;
   background-color: #2196f3;
+}
+
+.foter-text {
+  display: flex;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--bacgraund-color);
+  color: var(--footer-text);
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.fot-wrap {
+  display: flex;
+}
+
+.questions-img {
+  width: 400px;
+  height: 250px;
 }
