@@ -1,3 +1,14 @@
+.svg {
+  fill: #2f383a;
+  fill-opacity: 0, 5;
+  stroke-width: px;
+  stroke: #ff6e30;
+  stop-opacity: 0.5;
+}
+.svg:hover {
+  fill: #2196f3;
+}
+
 :root {
   --header-color: #2196f3;
   --header-text: #212121;
@@ -168,9 +179,10 @@ body {
 }
 
 .main-structure {
-  background-color: gold;
+  background-color: aqua;
   width: 550px;
   border-radius: 5px;
+  color: #212121;
 }
 
 .wiki-href {
@@ -292,4 +304,9 @@ body {
 .questions-img {
   width: 400px;
   height: 250px;
+}
+
+.main-imagess {
+  width: 150px;
+  height: 300px;
 }
