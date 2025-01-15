@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Java Energy oficial offise</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
 
     <header class="header">
 
-        <div class="container">
+        <div class="container index-wrap">
         
         <ul class="header-line">
             
@@ -42,9 +42,48 @@
         </div>
             </header>
 
-<main>    
+<main class="mn-wrap" >   
+
+  
+  
       <section class="images">
                 <div class="container">
+
+
+                  <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                      <button class="mn-btnn" type="button" data-modal-close>
+                        <img src="./img/close.jpg" alt="close" />
+                      </button>
+        
+                      <h2 class="modal-text">Залиште свої дані, ми вам передзвонимо</h2>
+                      <form action="">
+                        <label for="">
+                          Ім'я <input width: 448px; height: 40px; class="model-labl"
+                          type="text" required />
+                        </label>
+                        Телефон
+                        <label for="">
+                          <input
+                            type="tel"
+                            minlength="13"
+                            maxlength="13"
+                            pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                            placeholder="+38050555-55-55"
+                          />
+                        </label>
+                        Пошта
+                        <label for="">
+                          <input type="email" />
+                        </label>
+                        <label for="">
+                          <input type="text" />
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+
+
                     <h2 class="shop-header">
                         Наш магазин :
                     </h2>
@@ -54,8 +93,8 @@
                                     <div class="div11">
                                     <img   class="footer-images" src="../img/javaenergy.jpg" alt="pc">
                                       <h3 class="images-text">Java Energy Classic Drink</h3>
-                                     <p class="images-title">Ціна: 50 kč.</p>
-                                     <button class="shop-btn">  ><a href="#">Купити</a></button>
+                                     <p class="images-title">Ціна: 30 kč.</p>
+                                     <button data-modal-open  class="shop-btn" >  <a href="#" data-modal-open>Купити</a></button>
                                     </div>
                                 </li>
                                 
@@ -63,8 +102,8 @@
                                     <div class="div22">
                                     <img   class="footer-images" src="../img/javaenergy.jpg" alt="pc">
                                       <h3 class="images-text">Java Energy Classic Drink</h3>
-                                     <p class="images-title">Ціна: 50 kč.</p>
-                                   <button class="shop-btn">  > <a href="#">Купити</a></button> 
+                                     <p class="images-title">Ціна: 30 kč.</p>
+                                   <button data-modal-open  class="shop-btn">   <a href="#">Купити</a></button> 
                                     </div>
                                 </li>
                                 
@@ -72,8 +111,8 @@
                                     <div class="div33">
                                     <img   class="footer-images" src="../img/javaenergy.jpg" alt="pc">
                                       <h3 class="images-text">Java Energy Classic Drink</h3>
-                                     <p class="images-title">Ціна: 50 kč.</p>
-                                     <button class="shop-btn">  > <a href="#">Купити</a></button> 
+                                     <p class="images-title">Ціна: 30 kč.</p>
+                                     <button data-modal-open  class="shop-btn">   <a href="#">Купити</a></button> 
                                     </li>
                             </ul>
 
@@ -127,6 +166,6 @@
       </footer>
     </div>
 
-
+<script type="module" src="../modal.js"></script>
 </body>
 </html>
